@@ -19,13 +19,22 @@ img {
    max-width: 100%;
    max-height: 100%;
  }
+h2 {
+  padding: 5% 0;
+}
 
+p {
+  margin: 0 10%;
+  padding: 0% 20%;
+}
 
  /* Set height of body and the document to 100% to enable "full page tabs" */
  body, html {
    height: 100%;
    margin: 0;
    font-family: Arial;
+   text-align: center;
+   line-height: 120%;
  }
 
  /* Style tab links */
@@ -59,15 +68,25 @@ img {
    text-align: center;
  }
 
- #Statement {
+ #Research {
    background-image: linear-gradient(130deg, rgba(224,0,0,.8), rgba(255,0,0,0) 73%);
    background-color: hsla(245, 100%, 38%, 0.84);
  }
- #Contact {
+ #Usertesting {
    background-image: linear-gradient(240deg, rgba(224,0,0,.8), rgba(255,0,0,0) 73%);
    background-color: hsla(245, 100%, 38%, 0.84);
  }
- #About {
+ #Process {
    background-image: linear-gradient(350deg, rgba(224,0,0,.8), rgba(255,0,0,0) 70.71%);
    background-color: hsla(245, 100%, 38%, 0.84);
  }
+
+ #Deliverables {
+   background-image: linear-gradient(130deg, rgba(224,0,0,.8), rgba(255,0,0,0) 73%);
+   background-color: hsla(245, 100%, 38%, 0.84);
+ }
+
+ #Summary {
+     background-image: linear-gradient(240deg, rgba(224,0,0,.8), rgba(255,0,0,0) 73%);
+     background-color: hsla(245, 100%, 38%, 0.84);
+   }
