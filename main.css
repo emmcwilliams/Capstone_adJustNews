@@ -20,12 +20,24 @@ img {
    max-height: 100%;
  }
 h2 {
-  padding: 5% 0;
+  padding: 3% 0;
 }
 
-p {
-  margin: 0 10%;
-  padding: 0% 20%;
+
+p, h3 {
+  margin: 0% 15%;
+  padding: 0% 5%;
+  text-align: justify;
+}
+
+h3 {
+  font-weight: normal;
+  line-height: 120%;
+}
+
+h4 {
+  color:purple;
+  text-align: center;:
 }
 
  /* Set height of body and the document to 100% to enable "full page tabs" */
@@ -33,8 +45,32 @@ p {
    height: 100%;
    margin: 0;
    font-family: Arial;
-   text-align: center;
+   text-align: justify;
    line-height: 120%;
+ }
+
+
+ .leftbox {
+   float:left;
+   width:30%;
+   margin-left: 20%;
+   margin-top: 5%;
+   padding-top: 2%;
+   padding-bottom: 5%;
+   text-align: justify;
+   background-color: hsla(245, 100%, 100%, 0.90);
+   line-height: 130%;
+ }
+
+ .leftbox p {
+   color: black;
+ }
+ .rightbox {
+   float:right;
+   width:50%;
+   height:75%;
+   margin-top:2%;
+   text-align: left;
  }
 
  /* Style tab links */
@@ -59,8 +95,9 @@ p {
    color: white;
    display: none;
    padding: 100px 20px;
-   height: 100%;
+   height: 150%;
  }
+
 
  #Home {
    background-image: linear-gradient(200deg, rgba(224,0,0,.8), rgba(255,0,0,0) 70.71%);
