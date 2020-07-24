@@ -19,6 +19,7 @@ img {
    max-width: 100%;
    max-height: 100%;
  }
+
 h2 {
   padding: 3% 0;
 }
@@ -37,8 +38,9 @@ h3 {
 
 h4 {
   color:purple;
-  text-align: center;:
+  text-align: center;
 }
+
 
  /* Set height of body and the document to 100% to enable "full page tabs" */
  body, html {
@@ -58,7 +60,7 @@ h4 {
    padding-top: 2%;
    padding-bottom: 5%;
    text-align: justify;
-   background-color: hsla(245, 100%, 100%, 0.90);
+   background-color: hsla(245, 100%, 100%, 0.70);
    line-height: 130%;
  }
 
@@ -71,6 +73,11 @@ h4 {
    height:75%;
    margin-top:2%;
    text-align: left;
+ }
+
+ .bubbles2 {
+   clear: left;
+   clear: right;
  }
 
  /* Style tab links */
@@ -95,7 +102,7 @@ h4 {
    color: white;
    display: none;
    padding: 100px 20px;
-   height: 150%;
+   height: auto;
  }
 
 
