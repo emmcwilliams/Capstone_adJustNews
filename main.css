@@ -41,6 +41,16 @@ h4 {
   text-align: center;
 }
 
+ul {
+  list-style-type: none;
+}
+
+li {
+  line-height: 140%;
+  text-align: center;
+}
+
+
 
  /* Set height of body and the document to 100% to enable "full page tabs" */
  body, html {
@@ -115,22 +125,32 @@ h4 {
  #Research {
    background-image: linear-gradient(130deg, rgba(224,0,0,.8), rgba(255,0,0,0) 73%);
    background-color: hsla(245, 100%, 38%, 0.84);
+   text-align: center;
  }
  #Usertesting {
    background-image: linear-gradient(240deg, rgba(224,0,0,.8), rgba(255,0,0,0) 73%);
    background-color: hsla(245, 100%, 38%, 0.84);
+   text-align: center;
  }
  #Process {
    background-image: linear-gradient(350deg, rgba(224,0,0,.8), rgba(255,0,0,0) 70.71%);
    background-color: hsla(245, 100%, 38%, 0.84);
+   text-align: center;
  }
 
  #Deliverables {
    background-image: linear-gradient(130deg, rgba(224,0,0,.8), rgba(255,0,0,0) 73%);
    background-color: hsla(245, 100%, 38%, 0.84);
+   text-align: center;
  }
 
  #Summary {
      background-image: linear-gradient(240deg, rgba(224,0,0,.8), rgba(255,0,0,0) 73%);
      background-color: hsla(245, 100%, 38%, 0.84);
+     text-align: center;
+   }
+
+   td {
+     text-align: left;
+     font-size: 15px;
    }
