@@ -149,6 +149,15 @@ li {
      background-color: hsla(245, 100%, 38%, 0.84);
      text-align: center;
    }
+   table {
+     text-align:center;
+     margin-left:auto;
+     margin-right:auto;
+     width:100%;
+    }
+
+    th { text-align: center;
+    }
 
    td {
      text-align: left;
