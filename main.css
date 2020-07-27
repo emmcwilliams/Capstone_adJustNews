@@ -164,6 +164,10 @@ li {
      font-size: 15px;
    }
 
+   a {
+     color: white;
+     text-decoration: none;
+   }
    /* Slideshow container */
 .slideshow-container {
   max-width: 500px;
